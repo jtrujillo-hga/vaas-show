@@ -1,0 +1,11 @@
+
+  #sign-up-button {
+    /* background-color: inherit; */
+    color: rgb(159, 173, 238);
+    font-weight: 600;
+  }
+  #sign-up-button:hover {
+    /* background-color:inherit; */
+    transition: 0s;
+    color: white;
+  }
