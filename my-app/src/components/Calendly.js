@@ -7,7 +7,7 @@ const Calendly = () => {
         style={{overflow: "clip"}}
         src="http://calendly.com/Michael-Pichardo"
         width="600px"
-        height="100%"
+        height="100%" 
         frameborder="0"
         
       ></iframe>
