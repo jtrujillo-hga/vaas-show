@@ -8,7 +8,7 @@ import Calendly from "../components/Calendly";
 
 function CalendlyPage() {
   return (
-    <div style={{
+    <div style={{ 
       backgroundImage: `url(${bgImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
