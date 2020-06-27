@@ -4,6 +4,7 @@ const Calendly = () => {
   return ( 
     <div class="cal" style={{ height: "650px" }}>
       <iframe
+        title="Schedule a Demo"
         style={{overflow: "clip"}}
         src="http://calendly.com/Michael-Pichardo"
         width="600px"
