@@ -8,6 +8,7 @@ import Calendly from "../components/Calendly";
 
 function LandingPage() {
   return (
+    
     <div style={{
       backgroundImage: `url(${bgImage})`,
       backgroundRepeat: "no-repeat",
@@ -19,14 +20,33 @@ function LandingPage() {
       <Container style={{flex: 1}}>
         <div className="h-100 d-flex flex-column justify-content-center">
           <div className="text-light w-lg-75">
-          <h1 className="display-4">Who We Are</h1>
+            <h1 className="display-4">VaaS.show Explained</h1>
           </div>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src={dogVid}></iframe>
+          <div class="embed-responsive embed-responsive-16by9 h-75 w-75">
+            <iframe class="embed-responsive-item" src={dogVid} allowfullscreen></iframe>
           </div>
-          <div className="text-light w-lg-75">
-            <h1 className="display-7">A New Way To Grow Your Show!</h1>
-          </div>
+          {/* <div
+            className="video"
+            style={{
+              position: "relative",
+              paddingBottom: "56.25%" ,
+              paddingTop: 25,
+              height: 0
+            }}
+          >
+            <iframe
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "75%",
+                height: "75%"
+              }}
+              src={dogVid}
+              frameBorder="0"
+            />
+            </div> */}
+          
         </div>
         
       </Container>
