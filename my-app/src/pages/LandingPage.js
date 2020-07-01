@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import bgImage from "../img/landing-image.jpg"
 import Header from "../components/Header";
-import dogVid from "../video/dog.mp4";
+import toolVid from "../video/zoom_0.mp4";
 import Calendly from "../components/Calendly";
 
 function LandingPage() {
@@ -23,7 +23,7 @@ function LandingPage() {
             <h1 className="display-4">VaaS.show Explained</h1>
           </div>
           <div class="embed-responsive embed-responsive-16by9 h-75 w-75">
-            <iframe class="embed-responsive-item" src={dogVid} allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src={toolVid} allowfullscreen></iframe>
           </div>
           {/* <div
             className="video"
